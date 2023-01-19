@@ -166,6 +166,7 @@ body {
 .filter-button {
     color: var(--primary-brand);
     background-color: var(--accent);
+    padding: 12px 24px;
 }
 
 .filter-button:hover, .filter-button:focus {
@@ -180,6 +181,9 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    
+    
+    
     outline: 2px solid tomato;
 }
 
