@@ -44,7 +44,7 @@ body {
 }
 
 .footer-logo {
-    color: var(--white-color)
+    color: var(--white-color);
 }
 
 .hidden {
@@ -84,6 +84,7 @@ body {
 
 .hero {
     background-color: var(--dark);
+    text-align: center;
 }
 
 .team-section {
@@ -95,6 +96,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    margin-bottom: 48px;
 }
 
 .advantages-title, .examples-title, .team-title, .portfolio-title {
@@ -103,8 +105,16 @@ body {
     font-size: 36px;
     line-height: 1.1;
     text-transform: capitalize;
+    text-align: center;
 }
 
+.examples-title {
+    margin-bottom: 72px;
+}
+
+.team-title {
+    margin-bottom: 72px;
+}
 .advantages-subtitle, .team-subtitle, .portfolio-subtitle {
     color: var(--dark);
     font-weight: 500;
@@ -112,16 +122,21 @@ body {
     line-height: 1.2;
 }
 
+
 .portfolio-text {
     color: var(--text);
 }
 
 .footer {
     background-color: var(--dark);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
-    color: var(--accent)
+    color: var(--accent);
+    width: 264px;
+    margin-top: 16px;
 }
 
 .button {
@@ -132,11 +147,15 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .hero-button {
     color: var(--white-color);
     background-color: var(--primary-brand);
+    padding: 16px 32px;
+    margin-bottom: 188px;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -154,4 +173,27 @@ body {
     background-color: var(--pressed-state);
 }
 
+/* Початок ДЗ №3 */
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-section {
+    padding-top: 96px;
+}
